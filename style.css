@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#folha {
+    width: 7%;
+    padding: 0;
+}
+
+header {
+    background-color: #42C30B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-inline: 3rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    color: #42C30B;
+    background-color: white;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    
+
+}
+
+#divdoheader {
+    margin-left: 7rem;
+    
+}
