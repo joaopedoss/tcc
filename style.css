@@ -10,7 +10,7 @@
 
 
 #folha {
-    width: 7%;
+    width: 6%;
     padding: 0;
 }
 
@@ -22,21 +22,66 @@ header {
     
 }
 
-a {
+header a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    margin-inline: 3rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    color: white;
+    background-color: none;
+    padding-block: 0.7825rem;
+    padding-inline: 1.1rem;
+}
+
+#divdoheader {
+    margin-left: 2.5rem;
+    width: 100%;
+    display: flex;
+}
+
+#donw {
+    height: 5rem;
+    width: 100%;
+    background-color: #42C30B;
+}
+  
+/*botoes*/
+
+.botoes {
+    margin-left: auto;
+}
+
+.botao1 {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     border-radius: 25px;
     color: #42C30B;
     background-color: white;
-    padding: 0.5rem;
-    padding-inline: 1rem;
-    
-
+    padding: 0.8rem;
+    padding-inline: 1.3rem;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 900;
 }
 
-#divdoheader {
-    margin-left: 7rem;
-    
+.botao2 {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    color: #42C30B;
+    background-color: black;
+    padding: 0.8rem;
+    padding-inline: 1.3rem;
+    margin-left: 1rem;
+    border: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 900;
 }
